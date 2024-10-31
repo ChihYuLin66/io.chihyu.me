@@ -57,8 +57,11 @@ export default {
 
 <template>
     <div>
-        <button @click="setPassword(passwordLength)">gen</button>
-
+        <!-- <v-btn class="content-button status-button" @click="setPassword(passwordLength)">
+            generate
+        </v-btn>
+     -->
+        
         <h1>{{ passwordResult }}</h1>
         
     </div>
